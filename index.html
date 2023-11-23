@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd4611d668.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/miniLogo.png" class="logo" alt="logo">
+
+                <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Design & Developer</p>
+                <h1>Hi, I'm <span>Marin</span><br>From Bangladesh</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/self-1.png" alt="pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, facere cupiditate a nam sequi
+                        libero in delectus earum, voluptatem excepturi adipisci commodi sunt repellendus corporis
+                        dolore! Unde reiciendis mollitia quisquam.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                        <p class="tab-links" onclick="opentab('expreience')">Expreience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Design & Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>APP Development</span><br>Building Android/iOS Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="expreience">
+                        <ul>
+                            <li><span>2020-Present</span><br>Web app Design & Development</li>
+                            <li><span>2019-2021</span><br>Designing Web/App Interfaces</li>
+                            <li><span>2019-2022</span><br>Building Android/iOS Apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2017</span><br>Web app Design & Development Institute</li>
+                            <li><span>2021</span><br>Diploma in CSE</li>
+                            <li><span>2022-Present</span><br>B.Sc in CSE(DUET)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------MY Services ...................-->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium blanditiis ducimus
+                        illum assumenda, quam quis earum quae possimus numquam dolorum non eaque! Accusantium
+                        necessitatibus deleniti quia dolorem? Harum, asperiores.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium blanditiis ducimus
+                        illum assumenda, quam quis earum quae possimus numquam dolorum non eaque! Accusantium
+                        necessitatibus deleniti quia dolorem? Harum, asperiores.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-apple-whole"></i>
+
+                    <h2>APP Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium blanditiis ducimus
+                        illum assumenda, quam quis earum quae possimus numquam dolorum non eaque! Accusantium
+                        necessitatibus deleniti quia dolorem? Harum, asperiores.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-------------------Protfolio------------>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h2>Social Media App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit id nam recusandae .</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h2>Music App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit id nam recusandae .</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h2>eCommerce Web App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit id nam recusandae .</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---------------------Contact-------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@example.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> +88-102923030232</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/login"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="images/ICPC-Preli-2023-37x225d.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="your @ mail" required>
+                        <textarea name="Message" rows="6" placeholder="Write Message"></textarea>
+                        <span id="msg"></span>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p><i class="fa-solid fa-copyright"></i> Copyright by @ MARIN made <i class="fa-solid fa-heart-pulse"></i> on Protfolio Site <i class="fa-solid fa-copyright"></i></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
